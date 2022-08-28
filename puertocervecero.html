@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html lang="es-CO">
+  <head>
+    <title>El Puerto Cervecero</title>
+    <link rel="stylesheet" href="puertocervecero.styles.css">
+    <link rel="icon" type="image/x-icon" href="images/puerto_icono.ico">
+  </head>
+  <body>
+     <h1 title="Bienvenida" style="font-size:300%; font-family:courier;text-align:center;"> Bienvenidos al puerto cervecero </h1>
+     <hr>
+     <h2 title="menu cervecerias"><strong> Menu cervecerias </strong></h2>
+       <p title="bbc"><a href="pc_bbc.html"> Bogota Beer Company </a></p>
+       <p> Cervecistas </p>
+       <p> Slow Beer </p>
+       <p> Statua Rota </p>
+     <hr>
+     <h2 title="informacion"><strong>Informacion</strong></h2>
+       <p> Bienvenidos al puerto cervecero en este sitio web vas a encontrar todas las cervezas artesanales con las que tengamos convenio </p>
+
+       <hr>
+       <h2>Tablas Cervecerias</h2>
+       <p><a href="pc_tabla_cervecerias.html" target="_blank" title="tablas de cervecerias" >Tabla de cervecerias</a></p>
+       <hr>
+       <pre style="font-size:120%;">
+        Bogota Beer Company
+        Car 89 # 24-35
+        Tel :328 234 2345
+        horario M - S  2pm-3am 
+
+
+        Slow Beer
+        iaoihrinhoirahoidhoiraihCar 89 # 24-35
+        Tel :328 234 2345
+        horario M - S  2pm-3am 
+
+
+        3 Carites
+        Car 89 # 24-35
+        Tel :328 234 2345
+        horario M - S  2pm-3am 
+
+
+        Statua Rota
+        Car 89 # 24-35
+        Tel :328 234 2345
+        horario M - S  2pm-3am 
+
+
+       </pre>
+
+     <hr>
+     <h2 title="Enlaces"><strong>Enlaces para pagina web</strong></h2>
+<!--enlaces con href , style , target, title atributos--> 
+       <a href="https://www.tiendasya.com.co/bogota-beer-company?gclid=CjwKCAjwiY6MBhBqEiwARFSCPjVnq5wxRSIlnFeUVw0R7YqH5_s3GRR9XpDqxnNBPQssBUBy9rsilxoCDRYQAvD_BwE" style="font-family:courier;" target="_blank" title="bogota beer company"> Bogota Beer Company</a>
+       <br>
+       <a href="https://web.facebook.com/SlowBeerColombia/?_rdc=1&_rdr" style="font-family:courier;" target="_blank" title="Slow Beer"> Slow Beer Facebook</a>
+       <br>
+       <a href="https://www.loscervecistas.es/" style="font-family:courier;" target="_blank" title="Cervecistas"> Cervecistas </a>
+       <br>
+       <a href="http://statuarota.com/" style="font-family:courier;" target="_blank" title="Statua Rota">Statua Rota</a>
+       <hr>
+
+<!--Imagenes con src, alt, width, height atributos-->
+     <h2 title="imagenes cervecerias"><strong>Imagenes Cervecerias</strong></h2>
+       <img src="images/bogota_beer_company.png" alt="img bogota beer company" width="250" height="169">
+       <img src="images/slowbeer.jpg" alt="img slow beer" width="250" height="169">
+
+       <img src="images/slowbeer.jpg" alt="img slow">
+       <!--Imagen con enlace incluido-->
+       <a href="http://statuarota.com/" target="_blank">
+        <img src="images/statuarota.jpg" alt="img statua rota" width="250" height="169">
+       </a>
+       <!-- ----------------------------- -->
+       
+       <img src="images/tres_carites.jpeg" alt="img tres carites" width="250" height="169">
+     <hr>
+
+     <!--convertimos un titulo en un enlace a otro documento html-->
+     <h2 title="Historia de la Cerveza"><a href="pc_historia_cerveza.html"><strong>Historia de la cerveza</strong></a></h2>
+     
+     <!--historia de la cerveza en Europa-->
+     <h2 title="Historia de la cerveza en Europa"><strong>Historia de la cerveza en Europa</strong><a href="pc_historia_cerveza_europa.html">leer mas</a></h2>
+     <h2 title="Tablas de cervezas"><a href="pc_tablas_cervezas.html"><strong>Tablas de Cervezas</strong></a></h2>
+
+     <!--Imagen de mapa <map> sirve para dar click en areas de la imagen-->
+     <hr>
+      <h2 title="Mapa eje Cervecero"> Mapa eje cervecero </h2>
+      <img src="images/mapa.jpg" alt="mapa cervecerias" usemap="#eje_cervecero">
+      <map name="eje_cervecero">
+        <area shape="circle" coords="700,340,40" alt="SlowBeer" href="pc_slow_beer.html" title="1) Slow Beer" onclick="myFunSlowBeer()">
+	<area shape="circle" coords="700,390,40" alt="PuertoCervecero" href="pc_puerto_cervecero.html" title="13) Puerto Cervecero" onclick="myFunPuertoCer()">
+      </map>
+      <hr>
+
+      <script>
+        function myFunSlowBeer(){
+           alert("Vas a entrar a la Cerveceria de slow beer, da click en Aceptar");
+        }
+
+        function myFunPuertoCer(){
+           alert("Vas a entrar a la Cerveceria del Puerto Cervecero, da click en Aceptar");
+	}
+      </script>
+
+     <!--enlace para enviar un email-->
+     <h2 title="redes sociales">Redes Sociales</h2>
+     <a href="mailto:miguelo.5@hotmail.com">Enviar Correo al Puerto Cervecero</a>
+     <hr>
+
+     <div style="background-color:rgba(163,152,152,0.7); padding:20px 50px;">
+      <h3 style="color:white;">Aranguren Brothers Company</h3> 
+      <h3 style="color:white;">Bogota-2021</h3>
+     </div>
+   </body>
+</html>
